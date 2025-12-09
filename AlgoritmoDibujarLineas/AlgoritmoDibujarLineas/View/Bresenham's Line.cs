@@ -1,61 +1,145 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using AlgoritmoDibujarLineas.Controller;
+// Asegúrate de que esta referencia sea correcta para tu lógica de Bresenham
+using AlgoritmoDibujarLineas.Logica;
+
 namespace AlgoritmoDibujarLineas.view
 {
     public partial class Bresenham_s_Line : Form
     {
-        Bitmap bmp;
-        Bresenham_Controller bresenham = new Bresenham_Controller();
+        // Variables de Lógica
+        private Bresenham_Controller bresenham = new Bresenham_Controller();
+
+        // Variables de Datos y Control
+        private List<Point> linePoints = new List<Point>();
+        private int currentPointIndex = 0; // Índice para saber qué píxel dibujar
+
+        // Almacenamiento de los límites reales de la línea en coordenadas de Bitmap
+        private int minBmpX = 0;
+        private int maxBmpX = 0;
+        private int minBmpY = 0;
+        private int maxBmpY = 0;
+
+        // **Instancia de la clase modular de dibujo**
+        private readonly LineGraphicsHandler _graphicsHandler;
 
         public Bresenham_s_Line()
         {
             InitializeComponent();
 
+            // Inicialización del manejador de gráficos
+            _graphicsHandler = new LineGraphicsHandler();
+
+            pictureBox1.Paint += pictureBox1_Paint;
+
+            // 1. Configurar el Timer (ejemplo: 500 ms = 0.5 segundos)
+            animationTimer.Interval = 500;
+            animationTimer.Tick += AnimationTimer_Tick;
         }
+
         private void Bresenham_s_Line_Load(object sender, EventArgs e)
         {
-            bmp = new Bitmap(pictureBox1.Width, pictureBox1.Height);
-            pictureBox1.Image = bmp;
         }
+
+        private void AnimationTimer_Tick(object sender, EventArgs e)
+        {
+            if (currentPointIndex < linePoints.Count)
+            {
+                currentPointIndex++;
+                pictureBox1.Invalidate(); // Redibuja el PictureBox
+            }
+            else
+            {
+                animationTimer.Stop();
+            }
+        }
+
         private void btnDraw_Click(object sender, EventArgs e)
         {
             try
             {
-                int x0 = int.Parse(txtX0.Text);
-                int y0 = int.Parse(txtY0.Text);
-                int x1 = int.Parse(txtX1.Text);
-                int y1 = int.Parse(txtY1.Text);
+                // 1. Limpiar y resetear animación
+                linePoints.Clear();
+                currentPointIndex = 0;
+                animationTimer.Stop();
 
-                bresenham.DrawLineBresenham(bmp, x0, y0, x1, y1, Color.Blue);
-                pictureBox1.Refresh();
+                // 2. Obtener coordenadas de usuario (asumiendo que txtX0, etc., existen)
+                int user_x0 = int.Parse(txtX0.Text);
+                int user_y0 = int.Parse(txtY0.Text);
+                int user_x1 = int.Parse(txtX1.Text);
+                int user_y1 = int.Parse(txtY1.Text);
+
+                // 3. Mapeo a coordenadas de Bitmap (Origen: superior izquierda)
+                int centerX = pictureBox1.Width / 2;
+                int centerY = pictureBox1.Height / 2;
+
+                int bmp_x0 = centerX + user_x0;
+                int bmp_x1 = centerX + user_x1;
+                // En coordenadas de pantalla Y positivo es hacia abajo, por eso restamos
+                int bmp_y0 = centerY - user_y0;
+                int bmp_y1 = centerY - user_y1;
+
+                // 4. Obtener la secuencia completa de puntos
+                linePoints = bresenham.CalculateLineBresenham(bmp_x0, bmp_y0, bmp_x1, bmp_y1);
+
+                // 5. Calcular los límites para el ZOOM AUTOMÁTICO
+                if (linePoints.Any())
+                {
+                    minBmpX = linePoints.Min(p => p.X);
+                    maxBmpX = linePoints.Max(p => p.X);
+                    minBmpY = linePoints.Min(p => p.Y);
+                    maxBmpY = linePoints.Max(p => p.Y);
+                }
+                else
+                {
+                    // Resetear límites si no hay puntos
+                    minBmpX = maxBmpX = minBmpY = maxBmpY = 0;
+                }
+
+                // 6. Iniciar la animación
+                animationTimer.Start();
             }
             catch
             {
-                MessageBox.Show("Invalid input. Please enter numbers only.");
+                MessageBox.Show("Entrada inválida. Por favor, ingrese solo números.");
             }
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            using (Graphics g = Graphics.FromImage(bmp))
-            {
-                g.Clear(Color.White);
-            }
-            pictureBox1.Refresh();
+            animationTimer.Stop();
+            linePoints.Clear();
+            currentPointIndex = 0;
+
+            // Resetear límites para el zoom
+            minBmpX = maxBmpX = minBmpY = maxBmpY = 0;
+
+            pictureBox1.Invalidate();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
+        // --- Evento de Pintado: Llama al manejador de gráficos ---
+        private void pictureBox1_Paint(object sender, PaintEventArgs e)
+        {
+            // 1. Pasar los datos actuales a la clase manejadora
+            _graphicsHandler.UpdateLineData(
+                linePoints,
+                currentPointIndex,
+                minBmpX,
+                maxBmpX,
+                minBmpY,
+                maxBmpY
+            );
+
+            // 2. Llamar al método Draw de la clase manejadora
+            _graphicsHandler.Draw(e.Graphics, pictureBox1.Width, pictureBox1.Height);
+        }
     }
 }
-

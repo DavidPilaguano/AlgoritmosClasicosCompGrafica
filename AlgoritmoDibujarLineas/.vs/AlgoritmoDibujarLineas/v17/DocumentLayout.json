@@ -1,90 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\",
+  "WorkspaceRootPath": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algortimolineas_pilaguano\\algoritmodibujarlineas\\algoritmodibujarlineas\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\logica\\linegraphicshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\logica\\linegraphicshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\mid-pointlinegeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\mid-pointlinegeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\mid-pointlinegeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\mid-pointlinegeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\controller\\midlinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\controller\\midlinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\controller\\midpointcirclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\controller\\midpointcirclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\bresenham\u0027s line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\bresenham\u0027s line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\mid-point circle generation algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\mid-point circle generation algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\gcdda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\gcdda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\bresenhamscirclegenerationalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\bresenhamscirclegenerationalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\mid-point circle generation algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\mid-point circle generation algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\controller\\midpointcirclealgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\controller\\midpointcirclealgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\gcdda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\gcdda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\bresenhamscirclegenerationalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\bresenhamscirclegenerationalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\controller\\bresenhamcirclealgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\controller\\bresenhamcirclealgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\bresenham\u0027s line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\bresenham\u0027s line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\bresenham\u0027s line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\controller\\bresenham_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\controller\\bresenham_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\view\\bresenham\u0027s line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\bresenham\u0027s line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\algoritmodibujarlineas\\controller\\dda_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\controller\\dda_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\bresenhamscirclegenerationalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\bresenhamscirclegenerationalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\mid-pointlinegeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\mid-pointlinegeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\mid-pointlinegeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\mid-pointlinegeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\mid-point circle generation algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\mid-point circle generation algorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\gcdda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\gcdda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\bresenhamscirclegenerationalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\bresenhamscirclegenerationalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -93,7 +49,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 333,
           "SelectedChildIndex": 5,
           "Children": [
             {
@@ -119,252 +75,135 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmHome.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\FrmHome.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\FrmHome.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\FrmHome.cs",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\FrmHome.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Title": "LineGraphicsHandler.cs",
+              "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Logica\\LineGraphicsHandler.cs",
+              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\Logica\\LineGraphicsHandler.cs",
+              "ToolTip": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Logica\\LineGraphicsHandler.cs",
+              "RelativeToolTip": "AlgoritmoDibujarLineas\\Logica\\LineGraphicsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:38:09.088Z",
+              "WhenOpened": "2025-12-08T16:30:07.993Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Mid-pointLineGeneration.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAMwBQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:29:23.565Z"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 284,
+          "SelectedChildIndex": 1,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Mid-pointLineGeneration.cs [Design]",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs [Design]",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs [Design]",
+              "Title": "Bresenham\u0027s Line.cs [Design]",
+              "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
+              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
+              "ToolTip": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs [Design]",
+              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:25:08.886Z"
+              "WhenOpened": "2025-12-08T02:44:02.286Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmHome.cs [Design]",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\FrmHome.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\FrmHome.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\FrmHome.cs [Design]",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\FrmHome.cs [Design]",
+              "Title": "Bresenham\u0027s Line.cs",
+              "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
+              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
+              "ToolTip": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
+              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwJAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T15:11:33.202Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "WhenOpened": "2025-12-08T02:44:15.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MidLineController.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\MidLineController.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\Controller\\MidLineController.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\MidLineController.cs",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\Controller\\MidLineController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAwFUAAAAAAAAAAAAAAA==",
+              "Title": "Mid-pointLineGeneration.cs [Design]",
+              "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
+              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
+              "ToolTip": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs [Design]",
+              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:29:12.931Z"
+              "WhenOpened": "2025-12-08T16:33:38.828Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MidpointCircleController.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\MidpointCircleController.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\Controller\\MidpointCircleController.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\MidpointCircleController.cs",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\Controller\\MidpointCircleController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "bresenhamsCircleGenerationAlgorithm.cs [Design]",
+              "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
+              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
+              "ToolTip": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs [Design]",
+              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T15:23:07.662Z"
+              "WhenOpened": "2025-12-08T16:33:41.555Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Bresenham\u0027s Line.cs [Design]",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs [Design]",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs [Design]",
+              "Title": "Mid-pointLineGeneration.cs",
+              "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
+              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
+              "ToolTip": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
+              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Mid-pointLineGeneration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T15:11:02.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Circle.cs [Design]",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Circle.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Circle.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Circle.cs [Design]",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Circle.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T15:22:43.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GCDDA.cs [Design]",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\GCDDA.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\GCDDA.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\GCDDA.cs [Design]",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\GCDDA.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T15:14:40.245Z"
+              "WhenOpened": "2025-12-08T16:33:27.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Mid-point Circle Generation Algorithm.cs [Design]",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-point Circle Generation Algorithm.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Mid-point Circle Generation Algorithm.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-point Circle Generation Algorithm.cs [Design]",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Mid-point Circle Generation Algorithm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:38:00.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "bresenhamsCircleGenerationAlgorithm.cs [Design]",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs [Design]",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:38:25.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Mid-point Circle Generation Algorithm.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-point Circle Generation Algorithm.cs",
+              "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-point Circle Generation Algorithm.cs",
               "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Mid-point Circle Generation Algorithm.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-point Circle Generation Algorithm.cs",
+              "ToolTip": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Mid-point Circle Generation Algorithm.cs",
               "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Mid-point Circle Generation Algorithm.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAjwBkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:46:22.355Z"
+              "WhenOpened": "2025-12-08T16:33:22.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MidpointCircleAlgorithm.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\MidpointCircleAlgorithm.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\Controller\\MidpointCircleAlgorithm.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\MidpointCircleAlgorithm.cs",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\Controller\\MidpointCircleAlgorithm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:46:14.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "GCDDA.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\GCDDA.cs",
+              "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\GCDDA.cs",
               "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\GCDDA.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\GCDDA.cs",
+              "ToolTip": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\GCDDA.cs",
               "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\GCDDA.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T15:14:43.143Z"
+              "WhenOpened": "2025-12-08T16:33:18.351Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Program.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\Program.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Program.cs",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:50:19.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "bresenhamsCircleGenerationAlgorithm.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:40:53.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BresenhamCircleAlgorithm.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\BresenhamCircleAlgorithm.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\Controller\\BresenhamCircleAlgorithm.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\BresenhamCircleAlgorithm.cs",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\Controller\\BresenhamCircleAlgorithm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T13:41:29.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
               "Title": "Circle.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Circle.cs",
+              "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Circle.cs",
               "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Circle.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Circle.cs",
+              "ToolTip": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Circle.cs",
               "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Circle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T15:22:51.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Bresenham\u0027s Line.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\Bresenham\u0027s Line.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T15:14:54.562Z"
+              "WhenOpened": "2025-12-08T16:32:56.689Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Bresenham_Controller.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\Bresenham_Controller.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\Controller\\Bresenham_Controller.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\Bresenham_Controller.cs",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\Controller\\Bresenham_Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "bresenhamsCircleGenerationAlgorithm.cs",
+              "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
+              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
+              "ToolTip": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
+              "RelativeToolTip": "AlgoritmoDibujarLineas\\View\\bresenhamsCircleGenerationAlgorithm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:47:07.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DDA_Controller.cs",
-              "DocumentMoniker": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\DDA_Controller.cs",
-              "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\Controller\\DDA_Controller.cs",
-              "ToolTip": "D:\\Computacion Grafica\\AlgortimoLineas_Pilaguano\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\Controller\\DDA_Controller.cs",
-              "RelativeToolTip": "AlgoritmoDibujarLineas\\Controller\\DDA_Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:33:01.671Z"
+              "WhenOpened": "2025-12-08T16:32:41.475Z",
+              "EditorCaption": ""
             }
           ]
         }

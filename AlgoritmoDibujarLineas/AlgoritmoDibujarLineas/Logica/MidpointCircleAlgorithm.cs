@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
 
-namespace AlgoritmoDibujarLineas.Controller
+namespace AlgoritmoDibujarLineas.Logica
 {
-    public static class BresenhamCircleAlgorithm
+    public static class MidpointCircleAlgorithm
     {
-        // Función auxiliar para dibujar los 8 puntos simétricos
         private static void PlotPoints(List<Point> points, int centerX, int centerY, int x, int y)
         {
+            // Aplica la simetría de ocho vías para el dibujo
             points.Add(new Point(centerX + x, centerY + y));
             points.Add(new Point(centerX - x, centerY + y));
             points.Add(new Point(centerX + x, centerY - y));
@@ -24,25 +24,25 @@ namespace AlgoritmoDibujarLineas.Controller
             var points = new List<Point>();
             int x = 0;
             int y = radius;
-            // Parámetro de decisión inicial de Bresenham
-            int d = 3 - 2 * radius;
 
-            // Primer punto
+            // Parámetro de decisión inicial: P0 = 1 - r
+            int p = 1 - radius;
+
             PlotPoints(points, centerX, centerY, x, y);
 
             while (x < y)
             {
                 x++;
-                if (d < 0)
+                if (p < 0)
                 {
-                    // Elegimos el pixel E (Este)
-                    d = d + 4 * x + 6;
+                    // Elegir E: p_next = p + 2x + 1
+                    p = p + 2 * x + 1;
                 }
                 else
                 {
-                    // Elegimos el pixel SE (Sureste)
+                    // Elegir SE: p_next = p + 2x - 2y + 1
                     y--;
-                    d = d + 4 * (x - y) + 10;
+                    p = p + 2 * (x - y) + 1;
                 }
                 PlotPoints(points, centerX, centerY, x, y);
             }

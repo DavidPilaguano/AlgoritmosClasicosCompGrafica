@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlgoritmoDibujarLineas.Controller
+namespace AlgoritmoDibujarLineas.Logica
 {
     public class MidpointCircleController
     {

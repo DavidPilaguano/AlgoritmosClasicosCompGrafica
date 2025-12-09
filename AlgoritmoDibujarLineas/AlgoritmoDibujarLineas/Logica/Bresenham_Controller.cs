@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 
-namespace AlgoritmoDibujarLineas.Controller
+namespace AlgoritmoDibujarLineas.Logica
 {
     internal class Bresenham_Controller
     {
-        public void DrawLineBresenham(Bitmap bmp, int x0, int y0, int x1, int y1, Color color)
+        // Renombrado de DrawLineBresenham a CalculateLineBresenham para reflejar su nueva función
+        public List<Point> CalculateLineBresenham(int x0, int y0, int x1, int y1)
         {
+            List<Point> points = new List<Point>();
+
             int dx = Math.Abs(x1 - x0);
             int dy = Math.Abs(y1 - y0);
 
@@ -17,8 +21,8 @@ namespace AlgoritmoDibujarLineas.Controller
 
             while (true)
             {
-                if (x0 >= 0 && x0 < bmp.Width && y0 >= 0 && y0 < bmp.Height)
-                    bmp.SetPixel(x0, y0, color);
+                // Solo agregamos el punto, no lo dibujamos.
+                points.Add(new Point(x0, y0));
 
                 if (x0 == x1 && y0 == y1)
                     break;
@@ -35,6 +39,7 @@ namespace AlgoritmoDibujarLineas.Controller
                     y0 += sy;
                 }
             }
+            return points;
         }
     }
 }

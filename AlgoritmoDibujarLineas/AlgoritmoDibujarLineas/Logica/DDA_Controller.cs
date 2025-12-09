@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace AlgoritmoDibujarLineas.Controller
+namespace AlgoritmoDibujarLineas.Logica
 {
     internal class DDA_Controller
     {

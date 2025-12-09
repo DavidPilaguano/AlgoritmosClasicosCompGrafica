@@ -1,4 +1,4 @@
-﻿using AlgoritmoDibujarLineas.Controller;
+﻿using AlgoritmoDibujarLineas.Logica;
  // Usamos Models, que es donde debe estar la lógica
 using System;
 using System.Collections.Generic;

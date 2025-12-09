@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using AlgoritmoDibujarLineas.Controller;
+using AlgoritmoDibujarLineas.Logica;
 
 namespace AlgoritmoDibujarLineas.view
 {

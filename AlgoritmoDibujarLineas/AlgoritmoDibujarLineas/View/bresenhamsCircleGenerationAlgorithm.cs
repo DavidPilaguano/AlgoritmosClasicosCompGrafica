@@ -1,4 +1,4 @@
-﻿using AlgoritmoDibujarLineas.Controller;
+﻿using AlgoritmoDibujarLineas.Logica;
 
 using System;
 using System.Collections.Generic;

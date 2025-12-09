@@ -46,10 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\BresenhamCircleAlgorithm.cs" />
-    <Compile Include="Controller\MidLineController.cs" />
-    <Compile Include="Controller\MidpointCircleAlgorithm.cs" />
-    <Compile Include="Controller\MidpointCircleController.cs" />
+    <Compile Include="Logica\BresenhamCircleAlgorithm.cs" />
+    <Compile Include="Logica\LineGraphicsHandler.cs" />
+    <Compile Include="Logica\MidLineController.cs" />
+    <Compile Include="Logica\MidpointCircleAlgorithm.cs" />
+    <Compile Include="Logica\MidpointCircleController.cs" />
     <Compile Include="FrmHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,8 +63,8 @@
     <Compile Include="View\Bresenham%27s Line.Designer.cs">
       <DependentUpon>Bresenham%27s Line.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controller\Bresenham_Controller.cs" />
-    <Compile Include="Controller\DDA_Controller.cs" />
+    <Compile Include="Logica\Bresenham_Controller.cs" />
+    <Compile Include="Logica\DDA_Controller.cs" />
     <Compile Include="View\bresenhamsCircleGenerationAlgorithm.cs">
       <SubType>Form</SubType>
     </Compile>

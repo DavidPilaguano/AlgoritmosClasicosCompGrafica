@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 
-namespace AlgoritmoDibujarLineas.Controller
+namespace AlgoritmoDibujarLineas.Logica
 {
     public class MidpointLineController
     {
