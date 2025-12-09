@@ -34,7 +34,7 @@ namespace AlgoritmoDibujarLineas.Logica
                 int x = p.X;
                 int y = p.Y;
 
-                // Verificación de límites
+
                 if (x < 0 || x >= width || y < 0 || y >= height)
                 {
                     continue;
@@ -42,13 +42,12 @@ namespace AlgoritmoDibujarLineas.Logica
 
                 Color pixelColor = canvas.GetPixel(x, y);
 
-                // Comprobar si NO es la frontera Y NO está rellenado
+
                 if (pixelColor.ToArgb() != boundaryColor.ToArgb() && pixelColor.ToArgb() != fillColor.ToArgb())
                 {
                     filledPoints.Add(p);
                     canvas.SetPixel(x, y, fillColor);
 
-                    // 4-conectividad
                     q.Enqueue(new Point(x + 1, y));
                     q.Enqueue(new Point(x - 1, y));
                     q.Enqueue(new Point(x, y + 1));

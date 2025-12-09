@@ -5,7 +5,6 @@ namespace AlgoritmoDibujarLineas.Logica
 {
     public static class BresenhamCircleAlgorithm
     {
-        // Función auxiliar para dibujar los 8 puntos simétricos
         private static void PlotPoints(List<Point> points, int centerX, int centerY, int x, int y)
         {
             points.Add(new Point(centerX + x, centerY + y));
@@ -24,10 +23,8 @@ namespace AlgoritmoDibujarLineas.Logica
             var points = new List<Point>();
             int x = 0;
             int y = radius;
-            // Parámetro de decisión inicial de Bresenham
             int d = 3 - 2 * radius;
 
-            // Primer punto
             PlotPoints(points, centerX, centerY, x, y);
 
             while (x < y)
@@ -35,12 +32,10 @@ namespace AlgoritmoDibujarLineas.Logica
                 x++;
                 if (d < 0)
                 {
-                    // Elegimos el pixel E (Este)
                     d = d + 4 * x + 6;
                 }
                 else
                 {
-                    // Elegimos el pixel SE (Sureste)
                     y--;
                     d = d + 4 * (x - y) + 10;
                 }

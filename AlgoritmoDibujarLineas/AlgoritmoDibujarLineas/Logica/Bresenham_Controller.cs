@@ -6,7 +6,7 @@ namespace AlgoritmoDibujarLineas.Logica
 {
     internal class Bresenham_Controller
     {
-        // Renombrado de DrawLineBresenham a CalculateLineBresenham para reflejar su nueva función
+
         public List<Point> CalculateLineBresenham(int x0, int y0, int x1, int y1)
         {
             List<Point> points = new List<Point>();
@@ -21,7 +21,6 @@ namespace AlgoritmoDibujarLineas.Logica
 
             while (true)
             {
-                // Solo agregamos el punto, no lo dibujamos.
                 points.Add(new Point(x0, y0));
 
                 if (x0 == x1 && y0 == y1)
@@ -42,4 +41,4 @@ namespace AlgoritmoDibujarLineas.Logica
             return points;
         }
     }
-}
+    }

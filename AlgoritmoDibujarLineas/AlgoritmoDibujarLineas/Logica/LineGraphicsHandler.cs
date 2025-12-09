@@ -28,14 +28,13 @@ public class LineGraphicsHandler
         _maxBmpY = maxY;
     }
 
-    // --- Método Principal de Dibujo ---
-    // Dentro de LineGraphicsHandler.cs
+    
     public void Draw(Graphics g, int width, int height)
     {
-        // 1. Calcular Zoom y Traslación
+        
         var transform = CalculateAutoZoomAndPan(width, height);
 
-        // 2. Aplicar Limpieza Condicional (Ajuste del Boundary Fill)
+       
         g.ResetTransform();
         if (ShouldClearBackground)
         {
@@ -46,19 +45,17 @@ public class LineGraphicsHandler
         g.TranslateTransform(transform.OffsetX, transform.OffsetY);
         g.ScaleTransform(transform.ZoomFactor, transform.ZoomFactor);
 
-        // 4. Dibujar Cuadrícula y Ejes
-        // ERROR CORREGIDO: Debes pasar width y height aquí si DrawGridAndAxes los requiere.
-        DrawGridAndAxes(g, width, height, transform.ZoomFactor); // <-- Asegúrate de usar los 3 o 4 parámetros requeridos
+        
+        DrawGridAndAxes(g, width, height, transform.ZoomFactor);
 
-        // 5. Dibujar Puntos
-        // ERROR CORREGIDO: Debes pasar width y height aquí si DrawLinePixels los requiere.
-        DrawLinePixels(g, width, height); // <-- Asegúrate de usar los 3 parámetros requeridos
+       
+        DrawLinePixels(g, width, height);
 
-        // 6. Restablecer la Transformación
+      
         g.ResetTransform();
     }
 
-    // --- Estructura para almacenar los resultados del cálculo ---
+   
     private class TransformData
     {
         public int ZoomFactor { get; set; } =1;
@@ -110,7 +107,7 @@ public class LineGraphicsHandler
             for (int i = 0; i < _currentPointIndex && i < _linePoints.Count; i++)
             {
                 Point p = _linePoints[i];
-                // Dibuja un cuadrado de 1x1 que será escalado por g.ScaleTransform
+
                 g.FillRectangle(blueBrush, p.X, p.Y, 1, 1);
             }
         }
@@ -118,7 +115,7 @@ public class LineGraphicsHandler
 
     private void DrawGridAndAxes(Graphics g, int width, int height, int currentZoom)
     {
-        // Rango de la cuadrícula basado en los límites de la línea + margen
+        
         int startX = Math.Min(_minBmpX, width / 2) - 5;
         int endX = Math.Max(_maxBmpX, width / 2) + 5;
         int startY = Math.Min(_minBmpY, height / 2) - 5;
@@ -127,8 +124,7 @@ public class LineGraphicsHandler
         int bmpCenterX = width / 2;
         int bmpCenterY = height / 2;
 
-        // --- 1. Cuadrícula ---
-        // Grosor ajustado inversamente al zoom para que se vea constante en pantalla
+        
         using (Pen gridPen = new Pen(Color.LightGray, 1.0f / currentZoom))
         {
             for (int x = startX; x <= endX; x += GridSpacing)

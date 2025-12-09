@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic; // ¡Necesario para List<Point>!
+using System.Collections.Generic; 
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -7,7 +7,7 @@ namespace AlgoritmoDibujarLineas.Logica
 {
     internal class DDA_Controller
     {
-        // CAMBIO: Ahora devuelve List<Point> y se llama CalculateLineDDA
+        
         public List<Point> CalculateLineDDA(int x0, int y0, int x1, int y1)
         {
             List<Point> linePoints = new List<Point>();

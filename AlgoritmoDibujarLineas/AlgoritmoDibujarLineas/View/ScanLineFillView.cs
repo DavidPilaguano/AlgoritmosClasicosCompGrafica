@@ -77,8 +77,6 @@ namespace AlgoritmoDibujarLineas.View
             int width = drawingPanel.Width;
             int height = drawingPanel.Height;
 
-            // --- AJUSTES PARA POLÍGONOS MINÚSCULOS ---
-
             // Márgenes que definen el área central de trabajo.
             const int TotalMargin = 250; // Usaremos un solo margen grande para simplicidad
                                          // Esto deja un área central de (Width - 2*250)
@@ -90,10 +88,7 @@ namespace AlgoritmoDibujarLineas.View
             int minY = TotalMargin;
             int maxY = height - TotalMargin;
 
-            // ** CORRECCIÓN CLAVE: Verificar y reajustar los límites **
-            // Si la diferencia entre los límites es demasiado pequeña o negativa, ajustamos.
-            // Aseguramos que el rango sea de al menos 50 píxeles y que min < max.
-
+            
             const int MinRange = 50;
 
             if (maxX - minX < MinRange)
@@ -112,7 +107,6 @@ namespace AlgoritmoDibujarLineas.View
                 maxY = center + MinRange / 2;
             }
 
-            // Asegurarse de que los límites estén dentro del panel:
             minX = Math.Max(0, minX);
             maxX = Math.Min(width, maxX);
             minY = Math.Max(0, minY);
@@ -121,15 +115,12 @@ namespace AlgoritmoDibujarLineas.View
 
             for (int i = 0; i < numVertices; i++)
             {
-                // Generar puntos dentro del área central limitada
-                // Nota: Random.Next(min, max) excluye max, lo cual es correcto.
-                int x = _random.Next(minX, maxX);
+               int x = _random.Next(minX, maxX);
                 int y = _random.Next(minY, maxY);
                 _polygonVertices.Add(new Point(x, y));
             }
 
-            // ... (El resto del código para ordenar los vértices se mantiene igual) ...
-
+          
             if (_polygonVertices.Count > 0)
             {
                 Point center = new Point(

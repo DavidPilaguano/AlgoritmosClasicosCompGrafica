@@ -114,9 +114,7 @@ namespace AlgoritmoDibujarLineas.View
             }
         }
 
-        // ----------------------------------------------------------------------------------
-        // ## ⏳ Gestión del Timer y Animación
-        // ----------------------------------------------------------------------------------
+       
         private void AnimationTimer_Tick(object sender, EventArgs e)
         {
             if (_currentPointIndex < _filledPoints.Count)
@@ -149,10 +147,7 @@ namespace AlgoritmoDibujarLineas.View
             _minBmpX = _maxBmpX = _minBmpY = _maxBmpY = 0;
         }
 
-        // ----------------------------------------------------------------------------------
-        // ## ▶️ Controladores de Botones
-        // ----------------------------------------------------------------------------------
-
+        
         private void btnFill_Click(object sender, EventArgs e)
         {
             if (_drawingBitmap == null) return;
@@ -204,10 +199,6 @@ namespace AlgoritmoDibujarLineas.View
             ClearAnimationState();
             drawingPanel.Invalidate();
         }
-
-        // ----------------------------------------------------------------------------------
-        // ## 🖼️ Vista (Paint)
-        // ----------------------------------------------------------------------------------
 
         private void DrawingPanel_Paint(object sender, PaintEventArgs e)
         {

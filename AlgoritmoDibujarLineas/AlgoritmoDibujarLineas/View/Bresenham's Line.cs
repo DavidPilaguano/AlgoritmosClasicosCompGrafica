@@ -65,7 +65,7 @@ namespace AlgoritmoDibujarLineas.view
                     lblCurrentPoint.Text = $"Punto actual (BMP): ({p.X}, {p.Y})" +
                                            $"\nPunto (Cartesiano): ({userX}, {userY})";
 
-                    // --- 2. Añadir al Historial (CORREGIDO) ---
+
                     string historyEntry = $"{currentPointIndex:00}. (X:{userX}, Y:{userY}) [BMP: {p.X}, {p.Y}]";
 
                     // Usar AppendText en el TextBox

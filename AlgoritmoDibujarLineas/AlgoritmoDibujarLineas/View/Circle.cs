@@ -168,8 +168,7 @@ namespace AlgoritmoDibujarLineas.View
                 maxBmpY
             );
 
-            // **2. Llamar al método Draw del LineGraphicsHandler para dibujar todo**
-            // (Aplicará zoom, dibujará cuadrícula y los puntos animados)
+          
             _graphicsHandler.Draw(g, width, height);
         }
     }

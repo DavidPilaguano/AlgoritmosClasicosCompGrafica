@@ -7,7 +7,7 @@ namespace AlgoritmoDibujarLineas.Logica
 {
     public static class ScanLineFillAlgorithm
     {
-        // ** CAMBIO CLAVE: Devuelve List<Point> **
+       
         public static List<Point> Fill(List<Point> polygonVertices, Color fillColor, Bitmap canvas)
         {
             var filledPoints = new List<Point>();

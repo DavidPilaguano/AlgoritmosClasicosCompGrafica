@@ -50,11 +50,10 @@ namespace AlgoritmoDibujarLineas.view
 
         private void GCDDA_Load(object sender, EventArgs e)
         {
-            // Ya no es necesario manejar el Bitmap y Graphics aquí
-            // El LineGraphicsHandler manejará el dibujo en el evento Paint.
+            
         }
 
-        // --- Nuevo Método: Manejador del Temporizador para la animación ---
+
         private void AnimationTimer_Tick(object sender, EventArgs e)
         {
             if (currentPointIndex < linePoints.Count)
@@ -83,7 +82,7 @@ namespace AlgoritmoDibujarLineas.view
             else
             {
                 animationTimer.Stop();
-                // lblCurrentPoint.Text += "\n¡Dibujo finalizado!";
+                lblCurrentPoint.Text += "\n¡Dibujo finalizado!";
             }
         }
 
@@ -119,8 +118,7 @@ namespace AlgoritmoDibujarLineas.view
                 int bmp_y0 = centerY - user_y0;
                 int bmp_y1 = centerY - user_y1;
 
-                // 3. Obtener la secuencia completa de puntos del controlador DDA
-                // **NOTA: El controlador DDA DEBE devolver List<Point>**
+
                 linePoints = dda.CalculateLineDDA(bmp_x0, bmp_y0, bmp_x1, bmp_y1);
 
                 // 4. Calcular los límites para el ZOOM AUTOMÁTICO
@@ -162,7 +160,6 @@ namespace AlgoritmoDibujarLineas.view
             this.Close();
         }
 
-        // --- Nuevo Método: Evento de Pintado (Manejado por LineGraphicsHandler) ---
         private void PictureBox1_Paint(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
@@ -179,7 +176,7 @@ namespace AlgoritmoDibujarLineas.view
                 maxBmpY
             );
 
-            // 2. Llamar al método Draw del LineGraphicsHandler para dibujar todo
+           
             _graphicsHandler.Draw(g, width, height);
         }
     }

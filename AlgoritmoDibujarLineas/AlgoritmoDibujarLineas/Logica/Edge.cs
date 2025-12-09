@@ -6,8 +6,8 @@ namespace AlgoritmoDibujarLineas.Logica
     {
         public int YMin { get; set; }
         public int YMax { get; set; }
-        public float XofYMin { get; set; } // X actual de intersección
-        public float InverseSlope { get; set; } // dX/dY
+        public float XofYMin { get; set; } 
+        public float InverseSlope { get; set; } 
 
         public Edge(Point p1, Point p2)
         {

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\weilerathertonview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\weilerathertonview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\liangbarskyview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\liangbarskyview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\weilerathertonview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\weilerathertonview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\sutherlandhodgmanview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\view\\vattiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\view\\vattiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|solutionrelative:algoritmodibujarlineas\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B5B8008-8611-41A0-84B1-A48BF2783BB5}|AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas.csproj|d:\\computacion grafica\\algoritmos fundamentales\\algoritmosclasicoscompgrafica\\algoritmodibujarlineas\\algoritmodibujarlineas\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -203,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LiangBarskyView.cs [Design]",
               "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\LiangBarskyView.cs",
               "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\LiangBarskyView.cs",
@@ -373,7 +373,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "VattiView.cs [Design]",
               "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\VattiView.cs",
               "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\VattiView.cs",
@@ -385,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "WeilerAthertonView.cs",
               "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\WeilerAthertonView.cs",
               "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\WeilerAthertonView.cs",
@@ -398,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SutherlandHodgmanView.cs",
               "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\SutherlandHodgmanView.cs",
               "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\SutherlandHodgmanView.cs",
@@ -411,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VattiView.cs",
               "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\View\\VattiView.cs",
               "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\View\\VattiView.cs",
@@ -629,7 +629,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "FrmHome.cs [Design]",
               "DocumentMoniker": "D:\\Computacion Grafica\\Algoritmos Fundamentales\\AlgoritmosClasicosCompGrafica\\AlgoritmoDibujarLineas\\AlgoritmoDibujarLineas\\FrmHome.cs",
               "RelativeDocumentMoniker": "AlgoritmoDibujarLineas\\FrmHome.cs",

@@ -17,10 +17,7 @@ namespace AlgoritmoDibujarLineas.View
         private int centerX = 0; // Almacena el centro X para la conversión cartesiana
         private int centerY = 0; // Almacena el centro Y para la conversión cartesiana
 
-        // Aunque es un círculo, usaremos un manejador de gráficos simple para la cuadrícula
-        // Nota: Si quieres el zoom automático como en la línea, usa LineGraphicsHandler.
-        // Si quieres solo cuadrícula, usa el CircleGraphicsHandler simple que definimos antes.
-        // Por simplicidad en la animación, usaré una clase genérica llamada GraphicsHandler.
+      
         private readonly LineGraphicsHandler _graphicsHandler;
 
         // Almacenamiento de los límites reales para el zoom (como en la línea)
@@ -56,8 +53,7 @@ namespace AlgoritmoDibujarLineas.View
                 {
                     Point p = circlePoints[currentPointIndex - 1];
 
-                    // --- Conversión a Coordenadas Cartesianas (Usuario) ---
-                    // Usamos el centro que se calculó en drawButton_Click
+                  
                     int userX = p.X - centerX;
                     int userY = centerY - p.Y;
 
@@ -166,6 +162,6 @@ namespace AlgoritmoDibujarLineas.View
             drawingPanel.Invalidate();
         }
 
-        // ... (otros métodos como btnBack_Click) ...
+       
     }
 }

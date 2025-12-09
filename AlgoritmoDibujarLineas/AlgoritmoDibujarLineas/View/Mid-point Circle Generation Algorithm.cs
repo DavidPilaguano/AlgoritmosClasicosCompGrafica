@@ -73,10 +73,7 @@ namespace AlgoritmoDibujarLineas.View
             }
         }
 
-        // ----------------------------------------------------------------------
-        // --- CONTROLADOR: Llama al Modelo ---
-        // ----------------------------------------------------------------------
-        private void drawButton_Click(object sender, EventArgs e)
+         private void drawButton_Click(object sender, EventArgs e)
         {
             // Validar la entrada del radio (asume txtRadio)
             if (!int.TryParse(txtRadio.Text, out int radius) || radius <= 0)
@@ -119,9 +116,6 @@ namespace AlgoritmoDibujarLineas.View
             animationTimer.Start();
         }
 
-        // -------------------------------------------------------------
-        // --- VISTA: Maneja el dibujo (Modularizado) ---
-        // -------------------------------------------------------------
         private void drawingPanel_Paint(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;

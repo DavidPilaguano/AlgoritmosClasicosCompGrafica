@@ -20,10 +20,10 @@ namespace AlgoritmoDibujarLineas.Logica
                 return filledPoints;
             }
 
-            // 1. Obtener el color objetivo (el color de la semilla)
+           
             Color targetColor = canvas.GetPixel(startX, startY);
 
-            // Evitar rellenar si la semilla ya tiene el color de relleno
+            
             if (targetColor.ToArgb() == fillColor.ToArgb())
             {
                 return filledPoints;
@@ -37,7 +37,7 @@ namespace AlgoritmoDibujarLineas.Logica
                 int x = p.X;
                 int y = p.Y;
 
-                // Verificación de límites
+                
                 if (x < 0 || x >= width || y < 0 || y >= height)
                 {
                     continue;
@@ -45,13 +45,13 @@ namespace AlgoritmoDibujarLineas.Logica
 
                 Color pixelColor = canvas.GetPixel(x, y);
 
-                // 2. Condición de Relleno: Si el píxel es el targetColor
+               
                 if (pixelColor.ToArgb() == targetColor.ToArgb())
                 {
                     filledPoints.Add(p);
                     canvas.SetPixel(x, y, fillColor);
 
-                    // 4-conectividad
+                    
                     q.Enqueue(new Point(x + 1, y));
                     q.Enqueue(new Point(x - 1, y));
                     q.Enqueue(new Point(x, y + 1));
