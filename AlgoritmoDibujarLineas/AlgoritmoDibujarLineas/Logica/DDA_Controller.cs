@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic; // ¡Necesario para List<Point>!
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -6,23 +7,20 @@ namespace AlgoritmoDibujarLineas.Logica
 {
     internal class DDA_Controller
     {
-        public void DrawLineDDA(Bitmap bmp, int x0, int y0, int x1, int y1, Color color)
+        // CAMBIO: Ahora devuelve List<Point> y se llama CalculateLineDDA
+        public List<Point> CalculateLineDDA(int x0, int y0, int x1, int y1)
         {
-            if (bmp == null)
-            {
-                MessageBox.Show("ERROR");
-                return;
-            }
+            List<Point> linePoints = new List<Point>();
 
             int dx = x1 - x0;
             int dy = y1 - y0;
 
             int steps = Math.Max(Math.Abs(dx), Math.Abs(dy));
+
             if (steps == 0)
             {
-                if (x0 >= 0 && x0 < bmp.Width && y0 >= 0 && y0 < bmp.Height)
-                    bmp.SetPixel(x0, y0, color);
-                return;
+                linePoints.Add(new Point(x0, y0));
+                return linePoints;
             }
 
             float xInc = dx / (float)steps;
@@ -36,12 +34,13 @@ namespace AlgoritmoDibujarLineas.Logica
                 int xi = (int)Math.Round(x);
                 int yi = (int)Math.Round(y);
 
-                if (xi >= 0 && xi < bmp.Width && yi >= 0 && yi < bmp.Height)
-                    bmp.SetPixel(xi, yi, color);
+                linePoints.Add(new Point(xi, yi));
 
                 x += xInc;
                 y += yInc;
             }
+
+            return linePoints;
         }
     }
 }

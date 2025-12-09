@@ -48,12 +48,41 @@ namespace AlgoritmoDibujarLineas.view
         {
             if (currentPointIndex < linePoints.Count)
             {
+                // 1. Avanzar al siguiente punto
                 currentPointIndex++;
-                pictureBox1.Invalidate(); // Redibuja el PictureBox
+
+                if (currentPointIndex > 0)
+                {
+                    Point p = linePoints[currentPointIndex - 1];
+
+                    // --- Conversión a Coordenadas Cartesianas (Usuario) ---
+                    int centerX = pictureBox1.Width / 2;
+                    int centerY = pictureBox1.Height / 2;
+                    int userX = p.X - centerX;
+                    int userY = centerY - p.Y;
+
+                    // --- 1. Actualizar la etiqueta del Punto Actual (si es un Label) ---
+                    lblCurrentPoint.Text = $"Punto actual (BMP): ({p.X}, {p.Y})" +
+                                           $"\nPunto (Cartesiano): ({userX}, {userY})";
+
+                    // --- 2. Añadir al Historial (CORREGIDO) ---
+                    string historyEntry = $"{currentPointIndex:00}. (X:{userX}, Y:{userY}) [BMP: {p.X}, {p.Y}]";
+
+                    // Usar AppendText en el TextBox
+                    txtPointsHistory.AppendText(historyEntry + Environment.NewLine);
+
+                    // Opcional: Asegurar que el TextBox se desplace hacia abajo automáticamente
+                    txtPointsHistory.SelectionStart = txtPointsHistory.Text.Length;
+                    txtPointsHistory.ScrollToCaret();
+                }
+
+                // 3. Redibujar
+                pictureBox1.Invalidate();
             }
             else
             {
                 animationTimer.Stop();
+                lblCurrentPoint.Text += "\n¡Dibujo finalizado!";
             }
         }
 
@@ -65,6 +94,9 @@ namespace AlgoritmoDibujarLineas.view
                 linePoints.Clear();
                 currentPointIndex = 0;
                 animationTimer.Stop();
+
+                lblCurrentPoint.Text = "Calculando línea...";
+                txtPointsHistory.Clear(); 
 
                 // 2. Obtener coordenadas de usuario (asumiendo que txtX0, etc., existen)
                 int user_x0 = int.Parse(txtX0.Text);

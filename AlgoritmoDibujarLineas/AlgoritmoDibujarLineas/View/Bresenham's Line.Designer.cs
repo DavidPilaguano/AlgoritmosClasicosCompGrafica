@@ -45,10 +45,14 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.animationTimer = new System.Windows.Forms.Timer(this.components);
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.lblCurrentPoint = new System.Windows.Forms.Label();
+            this.txtPointsHistory = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox3
@@ -183,12 +187,39 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Controls.Add(this.txtPointsHistory);
+            this.groupBox4.Controls.Add(this.lblCurrentPoint);
             this.groupBox4.Location = new System.Drawing.Point(29, 439);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(442, 193);
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Acciones";
+            this.groupBox4.Text = "Salidas";
+            // 
+            // lblCurrentPoint
+            // 
+            this.lblCurrentPoint.AutoSize = true;
+            this.lblCurrentPoint.Location = new System.Drawing.Point(77, 43);
+            this.lblCurrentPoint.Name = "lblCurrentPoint";
+            this.lblCurrentPoint.Size = new System.Drawing.Size(0, 20);
+            this.lblCurrentPoint.TabIndex = 1;
+            // 
+            // txtPointsHistory
+            // 
+            this.txtPointsHistory.Location = new System.Drawing.Point(39, 146);
+            this.txtPointsHistory.Name = "txtPointsHistory";
+            this.txtPointsHistory.Size = new System.Drawing.Size(371, 26);
+            this.txtPointsHistory.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(15, 123);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(66, 20);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Historial";
             // 
             // Bresenham_s_Line
             // 
@@ -210,6 +241,8 @@
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -232,5 +265,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer animationTimer;
         private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label lblCurrentPoint;
+        private System.Windows.Forms.TextBox txtPointsHistory;
+        private System.Windows.Forms.Label label5;
     }
 }

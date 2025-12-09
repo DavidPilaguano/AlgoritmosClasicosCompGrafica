@@ -11,7 +11,7 @@ public class LineGraphicsHandler
     private int _currentPointIndex;
     private int _minBmpX, _maxBmpX, _minBmpY, _maxBmpY;
     private const int GridSpacing = 1;
-
+    public static bool ShouldClearBackground { get; set; } = true;
     public LineGraphicsHandler()
     {
         _linePoints = new List<Point>();
@@ -29,21 +29,32 @@ public class LineGraphicsHandler
     }
 
     // --- Método Principal de Dibujo ---
+    // Dentro de LineGraphicsHandler.cs
     public void Draw(Graphics g, int width, int height)
     {
         // 1. Calcular Zoom y Traslación
         var transform = CalculateAutoZoomAndPan(width, height);
 
-        // 2. Aplicar Transformación y Limpiar
-        ApplyTransformations(g, width, height, transform.OffsetX, transform.OffsetY, transform.ZoomFactor);
+        // 2. Aplicar Limpieza Condicional (Ajuste del Boundary Fill)
+        g.ResetTransform();
+        if (ShouldClearBackground)
+        {
+            g.Clear(Color.White);
+        }
 
-        // 3. Dibujar Cuadrícula y Ejes
-        DrawGridAndAxes(g, width, height, transform.ZoomFactor);
+        // 3. Aplicar Transformación
+        g.TranslateTransform(transform.OffsetX, transform.OffsetY);
+        g.ScaleTransform(transform.ZoomFactor, transform.ZoomFactor);
 
-        // 4. Dibujar los Cuadrantes Iluminados
-        DrawLinePixels(g, width, height);
+        // 4. Dibujar Cuadrícula y Ejes
+        // ERROR CORREGIDO: Debes pasar width y height aquí si DrawGridAndAxes los requiere.
+        DrawGridAndAxes(g, width, height, transform.ZoomFactor); // <-- Asegúrate de usar los 3 o 4 parámetros requeridos
 
-        // 5. Restablecer la Transformación
+        // 5. Dibujar Puntos
+        // ERROR CORREGIDO: Debes pasar width y height aquí si DrawLinePixels los requiere.
+        DrawLinePixels(g, width, height); // <-- Asegúrate de usar los 3 parámetros requeridos
+
+        // 6. Restablecer la Transformación
         g.ResetTransform();
     }
 

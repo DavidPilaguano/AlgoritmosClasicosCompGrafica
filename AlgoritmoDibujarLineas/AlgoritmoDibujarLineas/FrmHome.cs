@@ -92,5 +92,118 @@ namespace AlgoritmoDibujarLineas
             mid_PointLineGeneration.Dock = DockStyle.Fill;
             mid_PointLineGeneration.Show();
         }
+
+        private void boundaryFillToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                frm.Close();
+            }
+            BoundaryFillView boundaryFillView = new BoundaryFillView();
+            boundaryFillView.MdiParent = this;
+            boundaryFillView.Dock = DockStyle.Fill;
+            boundaryFillView.Show();
+        }
+        private void floodFillToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                frm.Close();
+            }
+            FloodFillView floodFillView = new FloodFillView();
+            floodFillView.MdiParent = this;
+            floodFillView.Dock = DockStyle.Fill;
+            floodFillView.Show();
+        }
+        private void ScanFillToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                frm.Close();
+            }
+            ScanLineFillView scanFillView = new ScanLineFillView();
+            scanFillView.MdiParent = this;
+            scanFillView.Dock = DockStyle.Fill;
+            scanFillView.Show();
+        }
+
+        private void cohenSutherlandToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                frm.Close();
+            }
+            CohenSutherlandView cohenSutherlandView = new CohenSutherlandView();
+            cohenSutherlandView.MdiParent = this;
+            cohenSutherlandView.Dock = DockStyle.Fill;
+            cohenSutherlandView.Show();
+        }
+        private void NicholasFongToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                frm.Close();
+            }
+            NichollLeeNichollView nicholasFongView = new NichollLeeNichollView();
+            nicholasFongView.MdiParent = this;
+            nicholasFongView.Dock = DockStyle.Fill;
+            nicholasFongView.Show();
+        }
+        private void liangBarskyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                frm.Close();
+            }
+            LiangBarskyView liangBarskyView = new LiangBarskyView();
+            liangBarskyView.MdiParent = this;
+            liangBarskyView.Dock = DockStyle.Fill;
+            liangBarskyView.Show();
+        }
+        private void vattaniToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                frm.Close();
+            }
+            VattiView vattiView = new VattiView();
+            vattiView.MdiParent = this;
+            vattiView.Dock = DockStyle.Fill;
+            vattiView.Show();
+        }
+        private void sutherlandHodgemanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                frm.Close();
+            }
+            SutherlandHodgmanView sutherlandHodgemanView = new SutherlandHodgmanView();
+            sutherlandHodgemanView.MdiParent = this;
+            sutherlandHodgemanView.Dock = DockStyle.Fill;
+            sutherlandHodgemanView.Show();
+        }
+
+        private void sutherlandHodgemanToolStripMenuItem_Click4(object sender, EventArgs e)
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                frm.Close();
+            }
+            SutherlandHodgmanView sutherlandHodgemanView = new SutherlandHodgmanView();
+            sutherlandHodgemanView.MdiParent = this;
+            sutherlandHodgemanView.Dock = DockStyle.Fill;
+            sutherlandHodgemanView.Show();
+        }
+        private void weilerAthertonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                frm.Close();
+            }
+            WeilerAthertonView weilerAthertonView = new WeilerAthertonView();
+            weilerAthertonView.MdiParent = this;
+            weilerAthertonView.Dock = DockStyle.Fill;
+            weilerAthertonView.Show();
+        }
     }
 }

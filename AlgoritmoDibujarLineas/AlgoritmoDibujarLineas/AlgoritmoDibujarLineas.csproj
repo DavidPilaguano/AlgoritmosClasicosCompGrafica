@@ -46,7 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logica\BasicGraphicsHandler.cs" />
+    <Compile Include="Logica\BoundaryFillAlgorithm.cs" />
     <Compile Include="Logica\BresenhamCircleAlgorithm.cs" />
+    <Compile Include="Logica\Edge.cs" />
+    <Compile Include="Logica\FloodFillAlgorithm.cs" />
+    <Compile Include="Logica\LineClippers.cs" />
     <Compile Include="Logica\LineGraphicsHandler.cs" />
     <Compile Include="Logica\MidLineController.cs" />
     <Compile Include="Logica\MidpointCircleAlgorithm.cs" />
@@ -56,6 +61,14 @@
     </Compile>
     <Compile Include="FrmHome.Designer.cs">
       <DependentUpon>FrmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logica\PolygonClippers.cs" />
+    <Compile Include="Logica\ScanLineFillAlgorithm.cs" />
+    <Compile Include="View\BoundaryFillView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BoundaryFillView.Designer.cs">
+      <DependentUpon>BoundaryFillView.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Bresenham%27s Line.cs">
       <SubType>Form</SubType>
@@ -77,6 +90,18 @@
     <Compile Include="View\Circle.Designer.cs">
       <DependentUpon>Circle.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\CohenSutherlandView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CohenSutherlandView.Designer.cs">
+      <DependentUpon>CohenSutherlandView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FloodFillView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FloodFillView.Designer.cs">
+      <DependentUpon>FloodFillView.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\GCDDA.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +110,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\LiangBarskyView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LiangBarskyView.Designer.cs">
+      <DependentUpon>LiangBarskyView.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Mid-point Circle Generation Algorithm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,8 +128,41 @@
     <Compile Include="View\Mid-pointLineGeneration.Designer.cs">
       <DependentUpon>Mid-pointLineGeneration.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\NichollLeeNichollView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\NichollLeeNichollView.Designer.cs">
+      <DependentUpon>NichollLeeNichollView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ScanLineFillView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ScanLineFillView.Designer.cs">
+      <DependentUpon>ScanLineFillView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SutherlandHodgmanView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SutherlandHodgmanView.Designer.cs">
+      <DependentUpon>SutherlandHodgmanView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VattiView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VattiView.Designer.cs">
+      <DependentUpon>VattiView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WeilerAthertonView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WeilerAthertonView.Designer.cs">
+      <DependentUpon>WeilerAthertonView.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BoundaryFillView.resx">
+      <DependentUpon>BoundaryFillView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Bresenham%27s Line.resx">
       <DependentUpon>Bresenham%27s Line.cs</DependentUpon>
@@ -108,6 +172,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Circle.resx">
       <DependentUpon>Circle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CohenSutherlandView.resx">
+      <DependentUpon>CohenSutherlandView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FloodFillView.resx">
+      <DependentUpon>FloodFillView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\GCDDA.resx">
       <DependentUpon>GCDDA.cs</DependentUpon>
@@ -121,11 +191,29 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\LiangBarskyView.resx">
+      <DependentUpon>LiangBarskyView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Mid-point Circle Generation Algorithm.resx">
       <DependentUpon>Mid-point Circle Generation Algorithm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Mid-pointLineGeneration.resx">
       <DependentUpon>Mid-pointLineGeneration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NichollLeeNichollView.resx">
+      <DependentUpon>NichollLeeNichollView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ScanLineFillView.resx">
+      <DependentUpon>ScanLineFillView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SutherlandHodgmanView.resx">
+      <DependentUpon>SutherlandHodgmanView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VattiView.resx">
+      <DependentUpon>VattiView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WeilerAthertonView.resx">
+      <DependentUpon>WeilerAthertonView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
